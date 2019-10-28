@@ -48,7 +48,7 @@ server_args = server_parser.parse_args()
 
 #--------------------------------> G L O B A L - V A R I A B L E S <-------------------------------------
 log = None
-server_ip = '' #51.75.248.42
+server_ip = ''
 server_counter = 0  #count number of client connected 
 server_thread_lock = Lock()
 server_smtp = smtplib.SMTP('smtp.gmail.com', 587)
