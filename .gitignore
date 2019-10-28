@@ -1,0 +1,9 @@
+#ignore logs floder 
+LogsOf
+
+#igore server log
+server.log
+
+#ignore .txt
+*.txt
+
